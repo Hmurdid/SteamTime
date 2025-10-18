@@ -15,7 +15,7 @@ The program shows how much time a specific user spent in certain games by making
 	- Select the Steam profile you want to check
 	- Find his profile's URL
 	- Copy the valid form of ID. Valid ID is without URL. 
-	`Example:` https://steamcommunity.com/profiles/6969696969696969/ —> **6969696969696969**
+	`Example:` https://steamcommunity.com/profiles/6969696969696969/ -> **6969696969696969**
 
 ---
 
