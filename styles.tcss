@@ -1,0 +1,50 @@
+Horizontal {
+    height: 100%;
+}
+   
+#left {
+    width: 50%;
+    border: solid green;
+    height: 100%;
+}
+    
+#right {
+    width: 50%;
+    height: 100%;
+}
+    
+#top {
+    height: 50%;
+    border: solid blue;
+}
+    
+#bottom {
+    height: 50%;
+    border: solid red;
+    padding: 1;
+}
+    
+    
+#inputs-container {
+    height: auto;
+}
+    
+#STEAM_API_KEY {
+    width: 100%;
+    margin-bottom: 1;
+}
+    
+#STEAM_ID {
+    width: 100%;
+    margin-bottom: 1;
+}
+    
+#button-container {
+    height: 3fr;
+    align: right bottom;
+}
+    
+#submit {
+    width: auto;
+    dock: right;
+}
