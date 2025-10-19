@@ -41,13 +41,13 @@ class MyApp(App):
                 with VerticalScroll(id="top"):
                     yield Static(
                                 f"This application shows information about the time spent on games on Steam. "
-                                f"To start using the application you need to get your Steam API from the link below.\n\n"
+                                f"To start using the application, you need to get your Steam API key from the link below.\n\n"
                                 f"NEVER SHOW YOUR API TO ANYONE:\nhttps://steamcommunity.com/dev/apikey \n"
-                                f"Note: You may need Steam Guard in your phone to verify that it's really you who creates API\n\n\n\n"
-                                f"After you go to the site and get the API, you will only need to enter the ID of the desired Steam account.\n\n"
+                                f"Note: You may need Steam Guard on your phone to verify that it's really you who is creating the API key.\n\n\n"
+                                f"After you go to the site and get the API key, you will only need to enter the ID of the desired Steam account.\n\n"
                                 f"WARNING:\n1. Your Steam account must be public. Without this, you will not be able to do anything.\n\n"
-                                f"2. Make sure that your ID is cleaned from the URL. This program only accepts clean IDs. Example:\n"
-                                f"76561198085278333\n\n\nHave fun >:)\n")
+                                f"2. Make sure that your ID is clean from the URL. This program only accepts clean IDs. Example: "
+                                f"76561198085278333\nHave fun >:)\n")
                                 
                 with Vertical(id="bottom"):
                     with Vertical(id="inputs-container"):

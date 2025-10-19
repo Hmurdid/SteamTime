@@ -3,13 +3,13 @@ Horizontal {
 }
    
 #left {
-    width: 50%;
+    width: 55%;
     border: solid green;
     height: 100%;
 }
     
 #right {
-    width: 50%;
+    width: 45%;
     height: 100%;
 }
     

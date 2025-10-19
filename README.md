@@ -36,10 +36,11 @@ The program shows how much time a specific user spent in certain games by making
 ### Linux/MacOS enjoyers:
 
 #### Manual instalation:
-- Open console from a project folder and run this:
-    1. `python3 -m venv venv`
-    2. `./venv/bin/pip install -r requirements.txt`
--  After that you can open main.py with `./main.py`
+1. Open console from a project folder and run this:
+   - `python3 -m venv venv`
+   - `./venv/bin/pip install -r requirements.txt`
+2.  After that you can open main.py with `./main.py`
+
 #### Auto:
 1. `chmod +x setup.sh run.sh`
 2. `./setup.sh`
